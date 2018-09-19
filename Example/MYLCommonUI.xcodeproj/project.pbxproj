@@ -14,6 +14,9 @@
 		27EBE9EB2151F3C500645C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EBE9EA2151F3C500645C83 /* main.m */; };
 		27EBE9F62151F3C600645C83 /* MYLCommonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EBE9F52151F3C600645C83 /* MYLCommonUITests.m */; };
 		27EBEA012151F3C600645C83 /* MYLCommonUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EBEA002151F3C600645C83 /* MYLCommonUIUITests.m */; };
+		9F7334A9BD388B5955101830 /* libPods-MYLCommonUIUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C31D930B518DF50FEAEE07C5 /* libPods-MYLCommonUIUITests.a */; };
+		B03A8533742D31540C643530 /* libPods-MYLCommonUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 319442AABBAD6063CAF766CE /* libPods-MYLCommonUI.a */; };
+		E681A20D02C9728FD1387629 /* libPods-MYLCommonUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9379CB1F3065D12690E4E992 /* libPods-MYLCommonUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D35B9326B31A47697EEA88C /* Pods-MYLCommonUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYLCommonUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-MYLCommonUI/Pods-MYLCommonUI.release.xcconfig"; sourceTree = "<group>"; };
 		27EBE9DB2151F3C000645C83 /* MYLCommonUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYLCommonUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27EBE9DE2151F3C000645C83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27EBE9DF2151F3C000645C83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,6 +54,14 @@
 		27EBE9FC2151F3C600645C83 /* MYLCommonUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYLCommonUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27EBEA002151F3C600645C83 /* MYLCommonUIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYLCommonUIUITests.m; sourceTree = "<group>"; };
 		27EBEA022151F3C600645C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319442AABBAD6063CAF766CE /* libPods-MYLCommonUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MYLCommonUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C22C983623DACD3E70E76B /* Pods-MYLCommonUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYLCommonUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MYLCommonUI/Pods-MYLCommonUI.debug.xcconfig"; sourceTree = "<group>"; };
+		9379CB1F3065D12690E4E992 /* libPods-MYLCommonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MYLCommonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CFCC692CDCFA5374A2B013 /* Pods-MYLCommonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYLCommonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MYLCommonUITests/Pods-MYLCommonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B25263DBA5E1D972D2C82896 /* Pods-MYLCommonUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYLCommonUIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MYLCommonUIUITests/Pods-MYLCommonUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C31D930B518DF50FEAEE07C5 /* libPods-MYLCommonUIUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MYLCommonUIUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E539C4464CAE3415FDAFD5CD /* Pods-MYLCommonUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYLCommonUIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MYLCommonUIUITests/Pods-MYLCommonUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F58BDACBD1F6EC32A620CCA0 /* Pods-MYLCommonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYLCommonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MYLCommonUITests/Pods-MYLCommonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B03A8533742D31540C643530 /* libPods-MYLCommonUI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E681A20D02C9728FD1387629 /* libPods-MYLCommonUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +85,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F7334A9BD388B5955101830 /* libPods-MYLCommonUIUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		233BA98AE951EF5E9F4431B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				319442AABBAD6063CAF766CE /* libPods-MYLCommonUI.a */,
+				9379CB1F3065D12690E4E992 /* libPods-MYLCommonUITests.a */,
+				C31D930B518DF50FEAEE07C5 /* libPods-MYLCommonUIUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		27EBE9D22151F3C000645C83 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +109,8 @@
 				27EBE9F42151F3C600645C83 /* MYLCommonUITests */,
 				27EBE9FF2151F3C600645C83 /* MYLCommonUIUITests */,
 				27EBE9DC2151F3C000645C83 /* Products */,
+				28D110DB776047CC030A1E54 /* Pods */,
+				233BA98AE951EF5E9F4431B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +158,19 @@
 			path = MYLCommonUIUITests;
 			sourceTree = "<group>";
 		};
+		28D110DB776047CC030A1E54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70C22C983623DACD3E70E76B /* Pods-MYLCommonUI.debug.xcconfig */,
+				1D35B9326B31A47697EEA88C /* Pods-MYLCommonUI.release.xcconfig */,
+				F58BDACBD1F6EC32A620CCA0 /* Pods-MYLCommonUITests.debug.xcconfig */,
+				A9CFCC692CDCFA5374A2B013 /* Pods-MYLCommonUITests.release.xcconfig */,
+				E539C4464CAE3415FDAFD5CD /* Pods-MYLCommonUIUITests.debug.xcconfig */,
+				B25263DBA5E1D972D2C82896 /* Pods-MYLCommonUIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27EBEA052151F3C600645C83 /* Build configuration list for PBXNativeTarget "MYLCommonUI" */;
 			buildPhases = (
+				7F54EFF5BBE250997D54FC1F /* [CP] Check Pods Manifest.lock */,
 				27EBE9D72151F3C000645C83 /* Sources */,
 				27EBE9D82151F3C000645C83 /* Frameworks */,
 				27EBE9D92151F3C000645C83 /* Resources */,
@@ -155,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27EBEA082151F3C600645C83 /* Build configuration list for PBXNativeTarget "MYLCommonUITests" */;
 			buildPhases = (
+				2DC69F6192F4E3BC7E1DD3DD /* [CP] Check Pods Manifest.lock */,
 				27EBE9ED2151F3C500645C83 /* Sources */,
 				27EBE9EE2151F3C500645C83 /* Frameworks */,
 				27EBE9EF2151F3C500645C83 /* Resources */,
@@ -173,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27EBEA0B2151F3C600645C83 /* Build configuration list for PBXNativeTarget "MYLCommonUIUITests" */;
 			buildPhases = (
+				18FCA7615FB0AC1BF7A9DB0E /* [CP] Check Pods Manifest.lock */,
 				27EBE9F82151F3C600645C83 /* Sources */,
 				27EBE9F92151F3C600645C83 /* Frameworks */,
 				27EBE9FA2151F3C600645C83 /* Resources */,
@@ -254,6 +297,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18FCA7615FB0AC1BF7A9DB0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MYLCommonUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DC69F6192F4E3BC7E1DD3DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MYLCommonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F54EFF5BBE250997D54FC1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MYLCommonUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		27EBE9D72151F3C000645C83 /* Sources */ = {
@@ -420,6 +532,7 @@
 		};
 		27EBEA062151F3C600645C83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C22C983623DACD3E70E76B /* Pods-MYLCommonUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MYLCommonUI/MYLCommonUI.entitlements;
@@ -438,6 +551,7 @@
 		};
 		27EBEA072151F3C600645C83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D35B9326B31A47697EEA88C /* Pods-MYLCommonUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MYLCommonUI/MYLCommonUI.entitlements;
@@ -456,6 +570,7 @@
 		};
 		27EBEA092151F3C600645C83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F58BDACBD1F6EC32A620CCA0 /* Pods-MYLCommonUITests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +590,7 @@
 		};
 		27EBEA0A2151F3C600645C83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9CFCC692CDCFA5374A2B013 /* Pods-MYLCommonUITests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +610,7 @@
 		};
 		27EBEA0C2151F3C600645C83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E539C4464CAE3415FDAFD5CD /* Pods-MYLCommonUIUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -512,6 +629,7 @@
 		};
 		27EBEA0D2151F3C600645C83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25263DBA5E1D972D2C82896 /* Pods-MYLCommonUIUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
