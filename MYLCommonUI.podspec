@@ -7,23 +7,10 @@
 #
 
 Pod::Spec.new do |s|
-
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
-
   s.name         = "MYLCommonUI"
   s.version      = "0.0.1"
   s.summary      = "MYLCommonUI"
 
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
   放一些开发中经常用到
                    DESC
@@ -32,9 +19,9 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
-  s.author             = { '沐雨立' => 'zyl1881@163.com' }
+  s.author       = { '沐雨立' => 'zyl1881@163.com' }
 
-  s.source       = { :git => "https://github.com/MuYuLi/MYLCommonUI.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/MuYuLi/MYLCommonUI.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
