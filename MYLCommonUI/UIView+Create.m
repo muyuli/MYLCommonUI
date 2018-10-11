@@ -7,7 +7,6 @@
 //
 
 #import "UIView+Create.h"
-#import <AIFLegacyService/AIFLegacyService.h>
 
 @implementation UIView (Create)
 
@@ -207,12 +206,6 @@
 + (UIButton *)buttonWithFrame:(CGRect)frame target:(id)target action:(SEL)action bgImage:(UIImage *)bgImage tag:(NSInteger)tag
 {
     return [[self class] buttonWithFrame:frame target:target action:action title:nil font:nil titleColor:nil bgImage:bgImage  backColor:[UIColor clearColor] tag:tag];
-}
-
-+ (UIButton *)buttonWithFrame:(CGRect)frame target:(id)target action:(SEL)action title:(NSString *)title font:(UIFont *)font titleColor:(UIColor *)titleColor bgImageColor:(UIColor *)bgImageColor tag:(NSInteger)tag
-{
-    UIImage *image = bgImageColor ? [UIImage createImageWithColor:bgImageColor] : nil;
-    return [[self class] buttonWithFrame:frame target:target action:action title:title font:font titleColor:titleColor bgImage:image backColor:[UIColor clearColor] tag:tag];
 }
 
 @end

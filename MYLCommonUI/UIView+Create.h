@@ -20,7 +20,7 @@
 
 - (nonnull UIButton *)buildButtonWithTitle:(nullable NSString *)title frame:(CGRect)frame cornerRadius:(float)radius target:(nullable id)obj action:(nullable SEL)selector block:(void (^__nullable)(UIButton * __nonnull btn))block;
 
-- (UIButton *)buildButtonWithTitle:(NSString *)title frame:(CGRect)frame target:(id)obj action:(SEL)selector block:(void (^)(UIButton *btn))block;
+- (nonnull UIButton *)buildButtonWithTitle:(nullable NSString *)title frame:(CGRect)frame target:(__nullable id)obj action:(__nullable SEL)selector block:(void (^__nullable)(UIButton *btn))block;
 
 - (nonnull UIImageView *)buildImage:(CGRect)frame image:(nullable NSString *)imageName;
 
@@ -75,7 +75,6 @@
 
 + (nonnull UIButton *)buttonWithFrame:(CGRect)frame target:(nullable id)target action:(nullable SEL)action bgImage:(nullable UIImage *)bgImage tag:(NSInteger)tag;
 
-+ (nonnull UIButton *)buttonWithFrame:(CGRect)frame target:(nullable id)target action:(nullable SEL)action title:(nullable NSString *)title font:(nullable UIFont *)font titleColor:(nullable UIColor *)titleColor bgImageColor:(nullable UIColor *)bgImageColor tag:(NSInteger)tag;
 
 + (nonnull UIButton *)buttonWithFrame:(CGRect)frame target:(nullable id)target action:(nullable SEL)action title:(nullable NSString *)title font:(nullable UIFont *)font titleColor:(nullable UIColor *)titleColor backColor:(nullable UIColor *)backColor tag:(NSInteger)tag;
 

@@ -11,15 +11,15 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "MYLCommonUI"
 
-  s.description  = <<-DESC
-  放一些开发中经常用到
-                   DESC
+  # s.description  = <<-DESC
+  # MYLCommonUI
+  #                  DESC
 
   s.homepage     = "https://github.com/MuYuLi/MYLCommonUI"
 
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
-  s.author       = { '沐雨立' => 'zyl1881@163.com' }
+  s.author       = { '沐雨立' => 'zhyl1881@163.com' }
 
   s.source       = { :git => "https://github.com/MuYuLi/MYLCommonUI.git", :tag => s.version.to_s }
 
