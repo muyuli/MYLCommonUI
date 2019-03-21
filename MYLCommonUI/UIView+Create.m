@@ -208,6 +208,23 @@
     return [[self class] buttonWithFrame:frame target:target action:action title:nil font:nil titleColor:nil bgImage:bgImage  backColor:[UIColor clearColor] tag:tag];
 }
 
+
++ (nonnull UIButton *)buttonWithFrame:(CGRect)frame target:(nullable id)target action:(nullable SEL)action bgImage:(nullable UIImage *)bgImage
+{
+    UIButton *button = [self buttonWithType:UIButtonTypeCustom];
+    button.frame = frame;
+    [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    
+    if (bgImage){
+        [button setBackgroundImage:bgImage forState:UIControlStateNormal];
+    }
+    return button;
+}
+
++ (UIButton *)buttonWithFrame:(CGRect)frame target:(id)target action:(SEL)action title:(NSString *)title font:(UIFont *)font titleColor:(UIColor *)titleColor bgImage:(UIImage *)bgImage backColor:(UIColor *)backColor
+{
+    return [[self class] buttonWithFrame:frame target:target action:action title:title font:font titleColor:titleColor bgImage:bgImage backColor:[UIColor clearColor] tag:101];
+}
 @end
 
 

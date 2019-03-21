@@ -73,8 +73,11 @@
 
 + (nonnull UIButton *)buttonWithFrame:(CGRect)frame target:(nullable id)target action:(nullable SEL)action title:(nullable NSString *)title font:(nullable UIFont *)font titleColor:(nullable UIColor *)titleColor bgImage:(nullable UIImage *)bgImage tag:(NSInteger)tag;
 
++ (nonnull UIButton *)buttonWithFrame:(CGRect)frame target:(nullable id)target action:(nullable SEL)action bgImage:(nullable UIImage *)bgImage;
+
 + (nonnull UIButton *)buttonWithFrame:(CGRect)frame target:(nullable id)target action:(nullable SEL)action bgImage:(nullable UIImage *)bgImage tag:(NSInteger)tag;
 
++ (UIButton *)buttonWithFrame:(CGRect)frame target:(id)target action:(SEL)action title:(NSString *)title font:(UIFont *)font titleColor:(UIColor *)titleColor bgImage:(UIImage *)bgImage backColor:(UIColor *)backColor;
 
 + (nonnull UIButton *)buttonWithFrame:(CGRect)frame target:(nullable id)target action:(nullable SEL)action title:(nullable NSString *)title font:(nullable UIFont *)font titleColor:(nullable UIColor *)titleColor backColor:(nullable UIColor *)backColor tag:(NSInteger)tag;
 
