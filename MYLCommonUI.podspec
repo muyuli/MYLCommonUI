@@ -31,16 +31,16 @@ Pod::Spec.new do |s|
 
 
 
-  # s.subspec 'Utils' do |ss|
-  #     ss.source_files = 'BKCommonUI/Utils/*'
-  #     ss.public_header_files = 'BKCommonUI/Utils/*.h'
-  #     ss.dependency 'BKCommonUI/Style'
-  # end
+   s.subspec 'Category' do |ss|
+       ss.source_files = 'MYLCommonUI/Category/*'
+       ss.public_header_files = 'MYLCommonUI/Category/*.h'
+       ss.dependency 'MYLCommonUI/Category'
+   end
 
-  # s.subspec 'Style' do |ss|
-  #     ss.source_files = 'BKCommonUI/Style/*'
-  #     ss.public_header_files = 'BKCommonUI/Style/*.h'
-  # end
+   s.subspec 'Components' do |ss|
+       ss.source_files = 'MYLCommonUI/Components/**/*'
+       ss.public_header_files = 'MYLCommonUI/Components/**/*.h'
+   end
 
 
 

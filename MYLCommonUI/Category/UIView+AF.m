@@ -10,6 +10,27 @@
 
 @implementation UIView (AF)
 
+// x,y
+- (CGFloat)x
+{
+    return self.frame.origin.x;
+}
+
+- (CGFloat)y
+{
+    return self.frame.origin.y;
+}
+
+- (void)setX:(CGFloat)x
+{
+    self.frame = CGRectMake(x, self.frame.origin.y, self.frame.size.width, self.frame.size.height);
+}
+
+- (void)setY:(CGFloat)y
+{
+    self.frame = CGRectMake(self.frame.origin.x, y, self.frame.size.width, self.frame.size.height);
+}
+
 - (void)setHeight:(CGFloat)height
 {
     CGRect frame = self.frame;

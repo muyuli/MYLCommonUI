@@ -11,6 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (AF)
+// x,y
+- (CGFloat)x;
+- (CGFloat)y;
+- (void)setX:(CGFloat)x;
+- (void)setY:(CGFloat)y;
 - (void)setHeight:(CGFloat)height;
 - (CGFloat)left;
 - (CGFloat)right;
