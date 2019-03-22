@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.author       = { '沐雨立' => 'zhyl1881@163.com' }
 
-  s.source       = { :git => "https://github.com/MuYuLi/MYLCommonUI.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/MuYuLi/MYLCommonUI.git", :tag => "v#{s.version}" }
 
   s.ios.deployment_target = '8.0'
 
