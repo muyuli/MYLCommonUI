@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "MYLCommonUI"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "MYLCommonUI"
 
   # s.description  = <<-DESC
@@ -27,17 +27,17 @@ Pod::Spec.new do |s|
 
   s.source_files = 'MYLCommonUI/*.{h,m,c}'
 
-  s.public_header_files = 'MYLCommonUI/*.h'
+  # s.public_header_files = 'MYLCommonUI/*.h'
 
-  s.subspec 'Category' do |category|
-      category.source_files = 'MYLCommonUI/Category/*'
-      category.public_header_files = 'MYLCommonUI/Category/*.h'
-  end
+  # s.subspec 'Category' do |category|
+  #     category.source_files = 'MYLCommonUI/Category/*'
+  #     category.public_header_files = 'MYLCommonUI/Category/*.h'
+  # end
   
-  s.subspec 'Components' do |component|
-      component.source_files = 'MYLCommonUI/Components/**/*'
-      component.dependency 'MYLCommonUI/Category'
-  end
+  # s.subspec 'Components' do |component|
+  #     component.source_files = 'MYLCommonUI/Components/**/*'
+  #     component.dependency 'MYLCommonUI/Category'
+  # end
 
 
 
