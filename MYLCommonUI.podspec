@@ -30,13 +30,13 @@ Pod::Spec.new do |s|
   s.public_header_files = 'MYLCommonUI/*.h'
 
 
-
   s.subspec 'Category' do |ss|
       ss.source_files = 'MYLCommonUI/Category/*'
       ss.public_header_files = 'MYLCommonUI/Category/*.h'
 # ss.dependency 'MYLCommonUI/Category'
   end
 
+  
   s.subspec 'Components' do |ss|
       ss.source_files = 'MYLCommonUI/Components/**/*'
 #      ss.public_header_files = 'MYLCommonUI/Components/**/*.h'
