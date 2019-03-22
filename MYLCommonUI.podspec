@@ -25,22 +25,18 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MYLCommonUI/**/*.{h,m,c}'
+  s.source_files = 'MYLCommonUI/*.{h,m,c}'
 
   s.public_header_files = 'MYLCommonUI/*.h'
 
-
-  s.subspec 'Category' do |ss|
-      ss.source_files = 'MYLCommonUI/Category/*'
-      ss.public_header_files = 'MYLCommonUI/Category/*.h'
-# ss.dependency 'MYLCommonUI/Category'
+  s.subspec 'Category' do |category|
+      category.source_files = 'MYLCommonUI/Category/*'
+      category.public_header_files = 'MYLCommonUI/Category/*.h'
   end
-
   
-  s.subspec 'Components' do |ss|
-      ss.source_files = 'MYLCommonUI/Components/**/*'
-     # ss.public_header_files = 'MYLCommonUI/Components/**/*.h'
-      ss.dependency 'MYLCommonUI/Category'
+  s.subspec 'Components' do |component|
+      component.source_files = 'MYLCommonUI/Components/**/*'
+      component.dependency 'MYLCommonUI/Category'
   end
 
 
