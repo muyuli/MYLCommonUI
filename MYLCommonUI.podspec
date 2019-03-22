@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MYLCommonUI/*.{h,m,c}'
+  s.source_files = 'MYLCommonUI/**/*.{h,m,c}'
 
   s.public_header_files = 'MYLCommonUI/*.h'
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Components' do |ss|
       ss.source_files = 'MYLCommonUI/Components/**/*'
-#      ss.public_header_files = 'MYLCommonUI/Components/**/*.h'
+     # ss.public_header_files = 'MYLCommonUI/Components/**/*.h'
       ss.dependency 'MYLCommonUI/Category'
   end
 
