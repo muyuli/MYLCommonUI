@@ -47,6 +47,12 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit','Foundation','CoreLocation'
 
 
+  s.dependency 'AIFCommonUI'
+  s.dependency 'MBProgressHUD'
+
+
+
+
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the

@@ -6,6 +6,8 @@ target 'MYLCommonUI' do
   # use_frameworks!
 
    Pods 'Masonry', '1.1.0'
+   pod 'MYLCommonUI', :path => '../'
+
 
   target 'MYLCommonUITests' do
     inherit! :search_paths
