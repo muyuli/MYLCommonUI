@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.summary      = "MYLCommonUI"
 
   s.description  = <<-DESC
-  MYLCommonUI
+  MYLCommonUI 沐雨立的UI组件
                    DESC
 
   s.homepage     = "https://github.com/MuYuLi/MYLCommonUI"

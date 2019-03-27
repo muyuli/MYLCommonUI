@@ -5,7 +5,6 @@
 //  Created by James on 2017/6/5.
 //  Copyright © 2017年 Anjuke. All rights reserved.
 //
-#import <AIFFoundation/AIFFoundation.h>
 #import "BKAlertModalTransitionDelegate.h"
 #import "BKAlertAnimationController.h"
 #import "BKAlertPresentationController.h"

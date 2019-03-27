@@ -8,7 +8,6 @@
 
 #import "BKAlertController.h"
 #import "BKAlertModalTransitionDelegate.h"
-#import <BKCommonUI/UIColor+BrokerRT.h>
 
 #define kAlertViewDefaultWidth 280
 #define kCustomViewDefaultSize CGSizeMake(260, 240)
