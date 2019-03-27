@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name         = "MYLCommonUI"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "MYLCommonUI"
 
-  # s.description  = <<-DESC
-  # MYLCommonUI
-  #                  DESC
+  s.description  = <<-DESC
+  MYLCommonUI
+                   DESC
 
   s.homepage     = "https://github.com/MuYuLi/MYLCommonUI"
 
@@ -21,28 +21,30 @@ Pod::Spec.new do |s|
 
   s.author       = { '沐雨立' => 'zhyl1881@163.com' }
 
-  s.source       = { :git => "https://github.com/MuYuLi/MYLCommonUI.git", :tag => "v#{s.version}" }
+  s.source       = { :git => 'https://github.com/MuYuLi/MYLCommonUI.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MYLCommonUI/*.{h,m,c}'
 
-  # s.public_header_files = 'MYLCommonUI/*.h'
+  s.public_header_files = 'MYLCommonUI/*.h'
 
-  s.subspec 'AlertView' do |alertView|
-    alertView.source_files = 'MYLCommonUI/AlertView/*.{h,m}'
-    alertView.public_header_files = 'MYLCommonUI/AlertView/*.h'
-    alertView.dependency 'MYLCommonUI/*'
+  s.resources = "MYLCommonUI/Assets/**/*.{png,plist,xib,data,xcassets}"
+
+
+  s.subspec 'Utils' do |ss|
+      ss.source_files = 'MYLCommonUI/Utils/*'
+      ss.public_header_files = 'BKCommonUI/Utils/*.h'
   end
   
-  # s.subspec 'Components' do |component|
-  #     component.source_files = 'MYLCommonUI/Components/**/*'
-  #     component.dependency 'MYLCommonUI/Category'
-  # end
+
+  s.subspec 'Components' do |ss|
+      ss.source_files = 'MYLCommonUI/Components/**/*'
+      ss.dependency 'MYLCommonUI/Utils'
+  end
 
 
-
-  s.frameworks = 'UIKit'
+  s.frameworks = 'UIKit','Foundation','CoreLocation'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
