@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Utils' do |ss|
       ss.source_files = 'MYLCommonUI/Utils/*'
-      ss.public_header_files = 'BKCommonUI/Utils/*.h'
+      ss.public_header_files = 'MYLCommonUI/Utils/*.h'
   end
   
 
