@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'MYLCommonUI/*.h'
 
-  s.resources = "MYLCommonUI/Assets/**/*.{png,plist,xib,data,xcassets}"
+  # s.resources = "MYLCommonUI/Assets/**/*.{png,plist,xib,data,xcassets}"
 
 
   s.subspec 'Utils' do |ss|
