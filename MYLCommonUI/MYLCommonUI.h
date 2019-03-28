@@ -18,11 +18,8 @@
 /**
  * Components
  */
-#import <MYLCommonUI/BKAlertController.h>
-#import <MYLCommonUI/RTCycleScrollView.h>
-#import <MYLCommonUI/BKCommonPopupView.h>
+
 #import <MYLCommonUI/MYLCustomAlertManage.h>
-#import <MYLCommonUI/UIView+BKToast.h>
-#import <MYLCommonUI/UIViewController+BKToast.h>
+
 
 #endif /* MYLCommonUI_h */

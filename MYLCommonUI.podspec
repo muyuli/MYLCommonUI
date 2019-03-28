@@ -47,8 +47,8 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit','Foundation','CoreLocation'
 
 
-  s.dependency 'AIFCommonUI'
-  s.dependency 'MBProgressHUD'
+  # s.dependency 'AIFCommonUI'
+  # s.dependency 'MBProgressHUD'
 
 
 
