@@ -81,6 +81,7 @@
 
 + (nonnull UIButton *)buttonWithFrame:(CGRect)frame target:(nullable id)target action:(nullable SEL)action title:(nullable NSString *)title font:(nullable UIFont *)font titleColor:(nullable UIColor *)titleColor backColor:(nullable UIColor *)backColor tag:(NSInteger)tag;
 
++ (nonnull UIButton *)buttonWithFrame:(CGRect)frame target:(nullable id)target action:(nullable SEL)action image:(nullable UIImage *)image;
 @end
 
 

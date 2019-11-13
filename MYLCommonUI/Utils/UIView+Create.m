@@ -225,6 +225,19 @@
 {
     return [[self class] buttonWithFrame:frame target:target action:action title:title font:font titleColor:titleColor bgImage:bgImage backColor:[UIColor clearColor] tag:101];
 }
+
++ (nonnull UIButton *)buttonWithFrame:(CGRect)frame target:(nullable id)target action:(nullable SEL)action image:(nullable UIImage *)image
+{
+    UIButton *button = [self buttonWithType:UIButtonTypeCustom];
+    button.frame = frame;
+    [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    
+    if (image){
+        [button setImage:image forState:UIControlStateNormal];
+    }
+    return button;
+}
+
 @end
 
 
